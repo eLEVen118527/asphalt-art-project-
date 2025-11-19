@@ -37,12 +37,6 @@ Calories: (int) - the amount of Calories in the food item.
 Protein: (double) - the amount of Protein in the food item.
 Fat: (double) - the amount of Fat in the food item.
 source: (String) - source of each food in the dataset.
-Example: 
-
-Dataset: https://www.kaggle.com/datasets/sansuthi/global-co2-emissions 
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
 
 ## UML Diagram 
 
