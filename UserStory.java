@@ -18,7 +18,7 @@ public String getHealthFood() {
      food = i; 
 }
   } 
-return FoodName[food] + " - Calories: " + Calories[food] 
+return FoodName[food] + " - Calories: " + Calories[food] // returns the foods with less calories
   + ", Carbs: " + Carbs[food] 
   + ", Protein: " + Protein[food]
   + ", Fat: " + Fat[food] 
