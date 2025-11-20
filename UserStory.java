@@ -22,11 +22,11 @@ food = i;
 } 
 
 
-return FoodName[food] + " - Calories: " + Calories[food] // prints result in console. 
+return "\n" + "Lowest Calorie Food: " + FoodName[food] + " - Calories: " + Calories[food] // prints result in console. 
   + ", Carbs: " + Carbs[food] 
   + ", Protein: " + Protein[food]
   + ", Fat: " + Fat[food] 
-  + ", Source: " + Source[food];
+  + ", (Source: " + Source[food] + ") ";
 }
 
 // constructor for UserStory; loads text files. 
@@ -42,16 +42,17 @@ this.Source = FileReader.toStringArray(SourceFile);
 
   // to string method that prints the food info.
   public String toString() {
-    String result = "Nutrition Analyist:\n"; // title 
-    for (int i = 0; i < FoodName.length; i++) { // loops through every item. 
-      result += "Food: " + FoodName[i] // prints all lists by printing the resulting String. 
-        + " - Calories: " + Calories[i]
-        + " - Protein: " + Protein[i]
-        + " - Carbs: " + Carbs[i]
-        + " - Fats: " + Fat[i]
-        + " - Sources: " + Source[i];
-      result += "\n"; // new line
-    }
-    return result; // final return in console. 
+String result = "Nutrition Analyist:\n"; // title 
+  
+for (int i = 0; i < FoodName.length; i++) { // loops through every item. 
+result += "\n" + "\n" + "Food: " + FoodName[i] // prints all lists by adding the resulting String. 
++ " - Calories: " + Calories[i]
++ " - Protein: " + Protein[i]
++ " - Carbs: " + Carbs[i]
++ " - Fats: " + Fat[i]
++ " - (Source: " + Source[i] +")";
+result += "\n"; // sets up new line
+}
+return result; // final return in console. 
   }
 }
