@@ -26,6 +26,7 @@ return FoodName[food] + " - Calories: " + Calories[food] // returns the foods wi
 }
   
 // constructor for UserStory; loads text files. 
+//instance variable that refers to specific method and changes the variable. 
 public UserStory(String FoodNameFile, String CaloriesFile, String CarbsFile, String ProteinFile, String FatFile, String SourceFile) {
 this.FoodName = FileReader.toStringArray(FoodNameFile);
 this.Calories = FileReader.toIntArray(CaloriesFile);
