@@ -1,0 +1,28 @@
+SOURCES FOR DATA SET:
+
+https://fdc.nal.usda.gov/
+
+https://www.healthline.co
+
+https://whatyoueat.io/foods/
+
+----------------------------------------------------------------------------------------------
+
+Resources that helped with code: my partner (obviously), youtube videos, and lesson 11, 10, 6, and 4. 
+
+
+My partner and I collaborated and figured out the layout of our program and
+what methods we needed to use in order to get our highest calorie, average protein 
+and total calories. She created most of the UML diagram of all the instance variable we
+I wanted to use it along with the idea of the methods. 
+
+
+When it came to Youtube videos, I searched "how to add to an array in Java?" 
+and "Adding Elements to an Array in Java?" along with this video of Java arrays 
+that really helped us understand how to create our new Food[] maxFoods which is an 
+array of the food objects. Sadly I need to remember how to do the this.something method so
+I watched "Java Constructors - Full tutorial." 
+
+When it came to our code.org lessons I used this along with Youtube to better understand how 
+each aspect of the while loop and for loop use the int i = 0; i < count; i++ which I would say 
+was the hardest part for me as I am still learning how to do it along with my partner. When looking through the lessons I used these examples that I look at as math problems when calculating the average or total of something. Lesson 5, (methods and return values) helped me the most when I had to call names from other classes and use the parameters correctly. Lesson 6 was about conditionals and that helped me a lot because I knew I would need a lot of if-else statements for if the food item was in my dataset or not and  a while loop for the user input because it needed to ask repeatedly until it was a food item in my dataset. 
