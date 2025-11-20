@@ -12,7 +12,7 @@ UserStory us = new UserStory
     // Use toString() method to 
     //print out all food items 
     System.out.println(us);
-
+System.out.println(us.getHealthFood()); // prints out the result of the getHealthFood method.
 
   }
 }
